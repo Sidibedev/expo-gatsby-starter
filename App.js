@@ -13,13 +13,12 @@ export default function App() {
     }
 
     let pickerResult = await ImagePicker.launchImageLibraryAsync();
-    
-    if(pickerResult.cancelled == false){
+
+    if (pickerResult.cancelled == false) {
       setSelectedImage(pickerResult.uri);
-    }else {
-      alert('Upload a picture please')
+    } else {
+      alert("Upload a picture please");
     }
-    
   };
 
   let rotate = async () => {
@@ -36,19 +35,15 @@ export default function App() {
         <View>
           <TouchableOpacity
             onPress={openImagePickerAsync}
-            style={styles.button}>
+            style={styles.button}
+          >
             <Text style={{ color: "#eeb585" }}>Upload a picture</Text>
           </TouchableOpacity>
         </View>
-        ) : (
+      ) : (
         <View style={{ alignItems: "center" }}>
-          <Image
-            source={{ uri: selectedImage }}
-            style={styles.image}
-          />
-          <TouchableOpacity
-            onPress={rotate}
-            style={styles.button}>
+          <Image source={{ uri: selectedImage }} style={styles.image} />
+          <TouchableOpacity onPress={rotate} style={styles.button}>
             <Text style={{ color: "#eeb585" }}>Rotate image</Text>
           </TouchableOpacity>
         </View>
@@ -60,21 +55,20 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#eeb585",
     justifyContent: "center",
-    alignItems:'center'
+    alignItems: "center",
   },
   button: {
     marginTop: 30,
     paddingHorizontal: 30,
     paddingVertical: 20,
     borderRadius: 10,
-    backgroundColor: "black",
+    backgroundColor: "#cccccc",
   },
   image: {
-    width: 300, 
-    height: 300, 
-    marginTop: 20, 
-    borderRadius: 10
-  }
+    width: 300,
+    height: 300,
+    marginTop: 20,
+    borderRadius: 10,
+  },
 });
