@@ -1,5 +1,4 @@
 <h1 align="center">
-  <br>
   <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://github.com/Sidibedev/expo-gatsby-starter/blob/master/src/images/icon.png" alt="Expo" width="200"></a>
   <br>
   Expo-Gatsby-Starter 
@@ -17,7 +16,10 @@
   <a href="#Support">Support</a> •
 </p>
 
-[![Enregistrement-de-lecran-2020-05-20-a-15.50.46.gif](https://s7.gifyu.com/images/Enregistrement-de-lecran-2020-05-20-a-15.50.46.gif)](https://gifyu.com/image/nWR4)
+<p align="center">
+<a href="https://gifyu.com/image/nWR4"><img src="https://s7.gifyu.com/images/Enregistrement-de-lecran-2020-05-20-a-15.50.46.gif" alt="Enregistrement-de-lecran-2020-05-20-a-15.50.46.gif" border="0" /></a>
+</div>
+
 ## Features
 
 - SEO
@@ -35,7 +37,6 @@
     Use the Gatsby CLI to create a new site, specifying the expo starter.
 
     ```shell
-    # create a new Gatsby site using the expo starter
     gatsby new expo-gatsby-app https://github.com/Sidibedev/expo-gatsby-starter
     ```
 
@@ -54,7 +55,7 @@
 
     _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. 
     
-    Learn more about Expo and Gatsby in the [Expo docs](https://docs.expo.io/guides/using-gatsby/)._
+    Learn more about Expo and Gatsby in the [Expo docs](https://docs.expo.io/guides/using-gatsby/).
 
     Open the `expo-gatsby-app` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
@@ -62,7 +63,7 @@
 
 ## Demo
 
-You can find a demo here - [markdownify-web](https://expo-gatsby-starter.netlify.app/)
+You can find a demo here - [expo-gatsby-app](https://expo-gatsby-starter.netlify.app/)
 
 
 
